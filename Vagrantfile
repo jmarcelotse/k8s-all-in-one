@@ -9,7 +9,7 @@ Vagrant.configure("2") do |config|
 
   # Create a private network, which allows host-only access to the machine using a specific IP.
   #config.vm.network "public_network"
-  config.vm.network "private_network", ip: "192.168.1.10"
+  config.vm.network "private_network", ip: "192.168.0.10"
 
   #config.vm.synced_folder ".", "/vagrant"
 
